@@ -44,7 +44,7 @@ class Indicator():
     def show_seconds(self):
         t = 2
         while True:
-            time.sleep(1)
+            time.sleep(15)
             is_plex_active = self.check_plex_active()
             mention = 'Plex Active' if is_plex_active else '-' 
             # apply the interface update using  GObject.idle_add()
