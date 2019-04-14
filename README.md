@@ -1,5 +1,4 @@
 # plexstatus
-Ubuntu system tray status indicator for plex streaming
 When someone is streaming from plex media server, you'll see "Plex Active" in your system tray. Otherwise, you'll see a dash (-).
 
 # system package depdendencies
