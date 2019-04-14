@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Plex Status
+Type=Application
+Comment=Displays Plex Status in System Tray
+Path=/home/nick/development/plexstatus
+Exec=pipenv run python plexstatus.py
+Terminal=false

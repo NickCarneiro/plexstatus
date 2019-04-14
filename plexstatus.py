@@ -36,7 +36,7 @@ class Indicator():
         # quit
         item_quit = Gtk.MenuItem('Quit')
         item_quit.connect('activate', self.stop)
-        # menu.append(item_quit)
+        menu.append(item_quit)
 
         menu.show_all()
         return menu
